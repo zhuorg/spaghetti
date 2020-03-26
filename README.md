@@ -106,7 +106,7 @@ License
 The project is licensed under the [BSD license](https://github.com/pysal/spaghetti/blob/master/LICENSE.txt).
 
 BibTeX Citation
---------------------
+-----------------------
 
 If you use PySAL-spaghetti in a scientific publication, we would appreciate using the following citation:
 

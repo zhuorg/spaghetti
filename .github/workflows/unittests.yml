@@ -14,7 +14,8 @@
      timeout-minutes: 90
      strategy:
        matrix:
-         os: ['macos-latest', 'ubuntu-latest', 'windows-latest']
+         #os: ['macos-latest', 'ubuntu-latest', 'windows-latest']
+         os: ['ubuntu-latest'] 
          environment-file: [ci/envs/38-PYPI.yaml, ci/envs/38-PYPI-PLUS.yaml, ci/envs/38-GIT.yaml, ci/envs/38-GIT-PLUS.yaml]
      steps:
        - uses: actions/checkout@v2
